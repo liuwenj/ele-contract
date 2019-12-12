@@ -1,0 +1,29 @@
+@charset "utf-8";
+body,h1,h2,h3,h4,h5,h6,div,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td,span{margin:0;padding:0;}
+body{_overflow:auto;_height:100%;margin:0 auto;font-family: "Helvetica Neue","Helvetica,Arial","Microsoft YaHei","微软雅黑","sans-serif";color:#707070;}
+b,strong,h1,h2,h3,h4,h5,h6,th{font-weight:normal;}
+address,cite,dfn,em,i,var{font-style:normal;}
+code,kbd,pre,samp{font-family:courier new,courier,monospace;}
+small{font-size:12px;}
+ul,ol,li,dl,dt,dd{list-style:none;}
+sup{vertical-align:text-top;}
+sub{vertical-align:text-bottom;}
+legend{color:#000;}
+fieldset,img{border:0;}
+table{border-collapse:collapse;border-spacing:0;}
+img{ border: none;}
+.clearfix:after{display:block;clear:both;content: '';}
+.clear{zoom:1;}
+.fl {float: left; }
+.fr {float: right; }
+/*表单元素*/
+select, textarea, input { outline: none; }
+input{ border:none; font-family: "微软雅黑";}
+input::-ms-clear {display: none; }
+input::-ms-reveal{display: none;}
+input:valid + .clear { display: inline; }
+/*a*/
+a{text-decoration:none; color:#707070;}
+a img { display: block; border: none; }
+a:hover,a:active{outline:none;text-decoration:none;}
+a:focus{text-decoration:none;outline:none}
